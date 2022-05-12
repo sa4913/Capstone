@@ -115,3 +115,12 @@ a{
   transform: translateY(0);
   opacity: 1;
 }
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  padding: 5px;
+}
