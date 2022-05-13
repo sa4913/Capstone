@@ -3,9 +3,14 @@ let iframeWrapper = document.getElementById("iframe-wrapper");
 let actualIframe = document.getElementById("actual-iframe");
 let iframeCloseButton = document.getElementById("close-iframe");
 
+// let tooltipWrapper = document.getElementById("tooltip-wrapper");
+// let actualToolTip = document.getElementById("actual-tooltip");
+
 iframeCloseButton.addEventListener("click", closeIframe);
 
 window.addEventListener("scroll", reveal);
+
+// window.addEventListener("hover", showToolTip);
 
 function closeIframe(){
   iframeWrapper.style.display = "none";
@@ -15,6 +20,11 @@ function openIframe(page){
   iframeWrapper.style.display = "flex";
   actualIframe.src = page;
 }
+
+// function showToolTip(page){
+//   tooltipWrapper.style.display = "flex";
+//   actualToolTip.src = page;
+// }
 
 function reveal() {
   var reveals = document.querySelectorAll(".reveal");

@@ -77,7 +77,11 @@
         <p class="blank">Blank</p>
         <div class="row">
           <div class="column">
-            <img src="https://www.brookings.edu/wp-content/uploads/2021/07/Picture2.jpg" alt="">
+            <div class="tooltip">
+              <img src="https://www.brookings.edu/wp-content/uploads/2021/07/Picture2.jpg" alt="" title="">
+              <span class="tooltiptext">Line 1: “You want me to get up?” <br> Line 2: “That’s not possible in this lifetime.”</span>
+            </div>
+
           </div>
           <div class="column">
             <img src="https://www.brookings.edu/wp-content/uploads/2021/07/Picture3.jpg" alt="" width="85%">
@@ -158,6 +162,13 @@
           <iframe id="actual-iframe" src="caution" width="" height=""></iframe>
 
         </div>
+      </div>
+
+    </div>
+
+    <div id="tooltip-wrapper">
+      <div class="tooltip-outer-frame">
+        <p id="actual-tooltip" src="caution"></p>
       </div>
 
     </div>
