@@ -12,6 +12,9 @@ p{
 a{
   cursor: pointer;
   color:red;
+  text-decoration: underline;
+  font-weight:bold;
+  /* border: solid 1px red; */
 }
 
 #title{
