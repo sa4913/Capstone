@@ -14,6 +14,7 @@ window.addEventListener("scroll", reveal);
 
 function closeIframe(){
   iframeWrapper.style.display = "none";
+  actualIframe.src = "startingBlank";
 }
 
 function openIframe(page){
