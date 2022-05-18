@@ -17,6 +17,11 @@ a{
   /* border: solid 1px red; */
 }
 
+mark{
+  background-color: yellow;
+  color: black;
+}
+
 #title{
   font-size: 128px
 }
